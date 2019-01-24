@@ -1,0 +1,26 @@
+html {
+    background-color: azure;
+    font-family: Georgia;
+    font-size: 14px;
+    color: darkgray;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+input:hover {
+    border: 1px solid #0ba3cb;
+}
+input:focus {
+    border: 2px solid #0ba3cb;
+}
+input:invalid {
+    border: 2px solid red;
+}
+input[type=submit] {
+    background-color: #0ba3cb;
+}
