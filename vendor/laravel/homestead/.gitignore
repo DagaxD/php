@@ -9,4 +9,3 @@ phpunit.xml
 /mysql_backup
 /postgres_backup
 /user-customizations.sh
-/composer.lock
