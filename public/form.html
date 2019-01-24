@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="form">
+    <title>Formularz</title>
+</head>
+<body>
+<form action="plik_docelowy.php" method="POST">
+<label for="name" >Imię</label><input type="text" id="name" placeholder="Wpisz imię"><br/>
+<label for="surname" >Nazwisko</label><input type="text" id="surname" placeholder="Wpisz nazwisko"><br/>
+<label>Płeć</label><input type="radio" name="gender" value="female" checked>Kobieta<br/>
+    <input type="radio" name="gender" value="male">Mężczyzna<br/>
+    <label for="agreement">Zgoda</label><input type="checkbox" id="agreement" checked><br/>
+    <label for="age">Wiek</label><input id="age" min="1" max="120" type="number"><br/>
+    <input type="submit">
+</form>
+</body>
+</html>
